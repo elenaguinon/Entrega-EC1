@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallumbos Ciruelo | Luxury Underwear</title>
+    <meta name="description" content="Tienda online de ropa interior masculina. Gallumbos Ciruelo">
+    <meta name="author" content="Elena Guiñón">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="marca">
+                <a href="#inicio">
+                <h1>Gallumbos Ciruelo</h1>
+            </a>
+            <span class="slogan">Comodidad que se lleva por dentro</span>
+        </div>
+
+        <nav class="nav mayus">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#productos">Colección</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <img src="/img/main (2).png" alt="Campaña Gallumbos Ciruelo">
+            
+            <div class="destacado">
+                <h2 class="titulo mayus">Comodidad real, sin complicaciones</h2>
+                <p class="subtitulo serif-italic">Diseño ergonómico & Tecnología Seamless</p>
+                <a href="#productos" class="boton">Ver Colección</a>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros" class="container">
+            <div class="section-header">
+                <h2>Sobre nosotros</h2>
+                <div class="nosotros">
+                <p>Somos <span class="mayus">Gallumbos Ciruelo</span>, una firma dedicada a elevar el estándar de la ropa interior masculina. Creemos que la primera prenda que te pones define la comodidad del resto de tu día.</p>
+                <p>Nuestra colección está pensada para el <strong>hombre moderno y seguro de sí mismo</strong>, aquel que busca sofisticación sin complicaciones y valora la calidad tangible por encima de las tendencias pasajeras.</p>
+                <p>Nos diferenciamos por una apuesta radical por lo auténtico: rechazamos los tejidos sintéticos de baja calidad para ofrecerte exclusivamente <strong>algodón 100% natural</strong> con un diseño ergonómico que se adapta a tu cuerpo, todo ello bajo una producción ética y local.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="caja">
+                <h3>¿Por qué Gallumbos Ciruelo?</h3>
+                <ul class="lista">
+                    <li><strong>Algodón 100% natural</strong></li>
+                    <li><strong>Diseño ergonómico</strong></li>
+                    <li><strong>Fabricado en España</strong></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="productos" class="container">
+            <div class="section-header">
+                <h2>Colección</h2>
+            </div>
+            
+            <div class="grid">
+                <article class="ficha">
+                    <figure>
+                        <img src="/img/Bosque.jpg" alt="Boxer Bosque">
+                        <figcaption >Modelo Bosque</figcaption>
+                    </figure>
+                    <div class="info">
+                        <h3 class="nombre">Modelo Bosque</h3>
+                        <p class="desc">Algodón orgánico ajustado</p>
+                        <p class="precio">15,00€</p>
+                    </div>
+                </article>
+
+                <article class="ficha">
+                    <figure>
+                        <img src="/img/Trueno.jpg" alt="Boxer Trueno">
+                        <figcaption >Modelo Trueno</figcaption>
+                    </figure>
+                    <div class="info">
+                        <h3 class="nombre">Modelo Trueno</h3>
+                        <p class="desc">Secado rápido sport</p>
+                        <p class="precio">18,00€</p>
+                    </div>
+                </article>
+
+                <article class="ficha">
+                    <figure>
+                         <img src="/img/Arcilla.jpg" alt="Boxer Arcilla">
+                         <figcaption>Modelo Arcilla</figcaption>
+                    </figure>
+                    <div class="info">
+                        <h3 class="nombre">Modelo Arcilla</h3>
+                        <p class="desc">Tacto extra suave</p>
+                        <p class="precio">20,00€</p>
+                    </div>
+                </article>
+
+                <article class="ficha">
+                    <figure>
+                         <img src="/img/Bannana.jpg" alt="Boxer Bannana">
+                         <figcaption>Modelo Bannana</figcaption>
+                    </figure>
+                    <div class="info">
+                        <h3 class="nombre">Modelo Bannana</h3>
+                        <p class="desc">Max-comfort daily</p>
+                        <p class="precio">25,00€</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="container contacto">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p class="contactoSubtitulo">¿Dudas con tu talla o pedido?</p>
+            </div>
+
+            <div class="contactoForm">
+                <form action="#" method="POST">
+                    <div class="formulario">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" class="input" placeholder="Escribe tu nombre" required>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="input" placeholder="nombre@ejemplo.com" required>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="tipo-consulta">Asunto</label>
+                        <select id="tipo-consulta" name="tipo_consulta" class="input" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="pedido">Estado de mi pedido</option>
+                            <option value="tallas">Guía de tallas</option>
+                            <option value="devoluciones">Cambios y devoluciones</option>
+                            <option value="general">General</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" class="input" placeholder="Cuéntanos..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="botonEnviar">Enviar Consulta</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="mayus footer">
+            <p>&copy; 2025 GALLUMBOS CIRUELO S.L. FABRICADO EN ESPAÑA.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
